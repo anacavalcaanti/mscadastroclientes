@@ -1,0 +1,17 @@
+mscadastroclientes\com\br\java\core\port\in\AtualizaCadastroInterface.class
+mscadastroclientes\com\br\java\MainApplication.class
+mscadastroclientes\com\br\java\adapters\dto\ClienteResponse.class
+mscadastroclientes\com\br\java\core\port\in\CriaCadastroInterface.class
+mscadastroclientes\com\br\java\core\usecase\ExcluiClienteUsecase.class
+mscadastroclientes\com\br\java\core\port\in\BuscaCadastroInterface.class
+mscadastroclientes\com\br\java\adapters\controller\ClienteController.class
+mscadastroclientes\com\br\java\core\port\out\ClienteRepository.class
+mscadastroclientes\com\br\java\core\usecase\CadastroClienteUseCase.class
+mscadastroclientes\com\br\java\adapters\port\out\ClienteRepositoryAdapter.class
+mscadastroclientes\com\br\java\adapters\port\out\ClienteRepositoryJpa.class
+mscadastroclientes\com\br\java\core\usecase\BuscaClienteUsecase.class
+mscadastroclientes\com\br\java\adapters\database\entities\ClienteEntity.class
+mscadastroclientes\com\br\java\core\usecase\AtualizaClienteUsecase.class
+mscadastroclientes\com\br\java\core\model\Cliente.class
+mscadastroclientes\com\br\java\core\port\in\ExcluiCadastroInterface.class
+mscadastroclientes\com\br\java\adapters\dto\ClienteRequest.class

@@ -1,0 +1,17 @@
+services:
+  banco:
+    image: postgres:16
+    container_name: banco_postgres
+    environment:
+      POSTGRES_DB: cadastro_clientes
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - banco_data:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+
+volumes:
+  banco_data: {}

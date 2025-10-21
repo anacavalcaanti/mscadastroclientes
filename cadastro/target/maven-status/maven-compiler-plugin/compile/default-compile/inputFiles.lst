@@ -1,0 +1,17 @@
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\adapters\port\out\ClienteRepositoryAdapter.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\MainApplication.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\core\port\in\BuscaCadastroInterface.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\core\usecase\CadastroClienteUseCase.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\core\usecase\AtualizaClienteUsecase.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\core\usecase\ExcluiClienteUsecase.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\core\port\in\AtualizaCadastroInterface.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\core\port\in\CriaCadastroInterface.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\adapters\database\entities\ClienteEntity.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\adapters\port\out\ClienteRepositoryJpa.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\core\port\out\ClienteRepository.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\core\usecase\BuscaClienteUsecase.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\adapters\dto\ClienteResponse.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\adapters\controller\ClienteController.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\core\port\in\ExcluiCadastroInterface.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\adapters\dto\ClienteRequest.java
+C:\Users\ana1c\Downloads\mscadastroclientes\cadastro\src\main\java\mscadastroclientes\com\br\java\core\model\Cliente.java
