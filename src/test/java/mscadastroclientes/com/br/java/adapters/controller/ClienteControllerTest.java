@@ -3,12 +3,15 @@ package mscadastroclientes.com.br.java.adapters.controller;
 import mscadastroclientes.com.br.java.adapters.dto.ClienteRequest;
 import mscadastroclientes.com.br.java.adapters.dto.ClienteResponse;
 import mscadastroclientes.com.br.java.core.model.Cliente;
-import mscadastroclientes.com.br.java.core.port.in.AtualizaCadastroInterface;
-import mscadastroclientes.com.br.java.core.port.in.BuscaCadastroInterface;
-import mscadastroclientes.com.br.java.core.port.in.CriaCadastroInterface;
-import mscadastroclientes.com.br.java.core.port.in.ExcluiCadastroInterface;
-import org.junit.jupiter.api.BeforeEach;
+import mscadastroclientes.com.br.java.core.usecase.AtualizaClienteUsecase;
+import mscadastroclientes.com.br.java.core.usecase.BuscaClienteUsecase;
+import mscadastroclientes.com.br.java.core.usecase.CadastroClienteUseCase;
+import mscadastroclientes.com.br.java.core.usecase.ExcluiClienteUsecase;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -16,22 +19,23 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
+@ExtendWith(MockitoExtension.class)
 class ClienteControllerTest {
 
-    private CriaCadastroInterface criaCadastro;
-    private BuscaCadastroInterface buscaCadastro;
-    private AtualizaCadastroInterface atualizaCadastro;
-    private ExcluiCadastroInterface excluiCadastro;
-    private ClienteController controller;
+    @Mock
+    private CadastroClienteUseCase criaCadastro;
 
-    @BeforeEach
-    void setup() {
-        criaCadastro = mock(CriaCadastroInterface.class);
-        buscaCadastro = mock(BuscaCadastroInterface.class);
-        atualizaCadastro = mock(AtualizaCadastroInterface.class);
-        excluiCadastro = mock(ExcluiCadastroInterface.class);
-        controller = new ClienteController(criaCadastro, buscaCadastro, atualizaCadastro, excluiCadastro);
-    }
+    @Mock
+    private BuscaClienteUsecase buscaCadastro;
+
+    @Mock
+    private AtualizaClienteUsecase atualizaCadastro;
+
+    @Mock
+    private ExcluiClienteUsecase excluiCadastro;
+
+    @InjectMocks
+    private ClienteController controller;
 
     @Test
     void deveCriarClienteComSucesso() {

@@ -6,6 +6,10 @@ import mscadastroclientes.com.br.java.core.port.in.AtualizaCadastroInterface;
 import mscadastroclientes.com.br.java.core.port.in.BuscaCadastroInterface;
 import mscadastroclientes.com.br.java.core.port.in.CriaCadastroInterface;
 import mscadastroclientes.com.br.java.core.port.in.ExcluiCadastroInterface;
+import mscadastroclientes.com.br.java.core.usecase.AtualizaClienteUsecase;
+import mscadastroclientes.com.br.java.core.usecase.BuscaClienteUsecase;
+import mscadastroclientes.com.br.java.core.usecase.CadastroClienteUseCase;
+import mscadastroclientes.com.br.java.core.usecase.ExcluiClienteUsecase;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,12 +18,12 @@ import java.util.List;
 @RequestMapping("/api/clientes")
 public class ClienteController {
 
-    private final CriaCadastroInterface cadastroClienteUseCase;
-    private final BuscaCadastroInterface buscaClienteUseCase;
-    private final AtualizaCadastroInterface atualizaClienteUseCase;
-    private final ExcluiCadastroInterface excluiClienteUseCase;
+    private final CadastroClienteUseCase cadastroClienteUseCase;
+    private final BuscaClienteUsecase buscaClienteUseCase;
+    private final AtualizaClienteUsecase atualizaClienteUseCase;
+    private final ExcluiClienteUsecase excluiClienteUseCase;
 
-    public ClienteController(CriaCadastroInterface cadastroClienteUseCase, BuscaCadastroInterface buscaClienteUseCase, AtualizaCadastroInterface atualizaClienteUseCase, ExcluiCadastroInterface excluiClienteUseCase) {
+    public ClienteController(CadastroClienteUseCase cadastroClienteUseCase, BuscaClienteUsecase buscaClienteUseCase, AtualizaClienteUsecase atualizaClienteUseCase, ExcluiClienteUsecase excluiClienteUseCase) {
         this.cadastroClienteUseCase = cadastroClienteUseCase;
         this.buscaClienteUseCase = buscaClienteUseCase;
         this.atualizaClienteUseCase = atualizaClienteUseCase;
